@@ -7,7 +7,7 @@ import {
   BsInstagram,
   BsTwitter,
 } from "react-icons/bs";
-import logo from "../assets/Logo.png";
+import logo from "/static/Logo.png";
 
 const SiteFooter = () => {
   return (

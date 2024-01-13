@@ -7,21 +7,21 @@ const Services = () => {
       title: "Membership Organizations",
       description:
         "Our membership management software provides full automation of membership renewals and payments",
-      image: "/src/assets/icons/membership.png",
+      image: "/static/icons/membership.png",
     },
     {
       id: 2,
       title: "National Associations",
       description:
         "Our membership management software provides full automation of membership renewals and payments",
-      image: "/src/assets/icons/membership.png",
+      image: "/static/icons/association.png",
     },
     {
       id: 3,
       title: "Clubs And Groups",
       description:
         "Our membership management software provides full automation of membership renewals and payments",
-      image: "/src/assets/icons/membership.png",
+      image: "/static/icons/groups.png",
     },
   ];
 
@@ -38,13 +38,13 @@ const Services = () => {
         {/* Companies logo */}
 
         <div className="my-12 mx-auto flex flex-wrap justify-center md:justify-between items-center gap-8">
-          <img src="/src/assets/company1.png" alt="" />
-          <img src="/src/assets/company2.png" alt="" />
-          <img src="/src/assets/company3.png" alt="" />
-          <img src="/src/assets/company4.png" alt="" />
-          <img src="/src/assets/company5.png" alt="" />
-          <img src="/src/assets/company6.png" alt="" />
-          <img src="/src/assets/company7.png" alt="" />
+          <img src="/static/company1.png" alt="" />
+          <img src="/static/company2.png" alt="" />
+          <img src="/static/company3.png" alt="" />
+          <img src="/static/company4.png" alt="" />
+          <img src="/static/company5.png" alt="" />
+          <img src="/static/company6.png" alt="" />
+          <img src="/static/company7.png" alt="" />
         </div>
       </div>
 

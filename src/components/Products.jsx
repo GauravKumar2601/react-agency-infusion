@@ -1,5 +1,5 @@
 import React from "react";
-import mobileLogin from "../assets/mobileLogin.png";
+import mobileLogin from "/static/mobileLogin.png";
 
 const Products = () => {
   return (
@@ -35,7 +35,7 @@ const Products = () => {
       <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto bg-neutralSilver py-16">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="md:w-1/3">
-            <img src="/src/assets/tesla.png" alt="" />
+            <img src="/static/tesla.png" alt="" />
           </div>
 
           {/* stats */}
@@ -63,32 +63,32 @@ const Products = () => {
               <div>
                 <div className="flex items-center gap-8 flex-wrap">
                   <img
-                    src="/src/assets/company1.png"
+                    src="/static/company1.png"
                     alt=""
                     className="cursor-pointer"
                   />
                   <img
-                    src="/src/assets/company2.png"
+                    src="/static/company2.png"
                     alt=""
                     className="cursor-pointer"
                   />
                   <img
-                    src="/src/assets/company3.png"
+                    src="/static/company3.png"
                     alt=""
                     className="cursor-pointer"
                   />
                   <img
-                    src="/src/assets/company4.png"
+                    src="/static/company4.png"
                     alt=""
                     className="cursor-pointer"
                   />
                   <img
-                    src="/src/assets/company5.png"
+                    src="/static/company5.png"
                     alt=""
                     className="cursor-pointer"
                   />
                   <img
-                    src="/src/assets/company6.png"
+                    src="/static/company6.png"
                     alt=""
                     className="cursor-pointer"
                   />
@@ -99,7 +99,7 @@ const Products = () => {
                     >
                       Meet all customers
                       <img
-                        src="/src/assets/icons/right.svg"
+                        src="/static/icons/right.svg"
                         alt=""
                         className="inline-block ml-2"
                       />

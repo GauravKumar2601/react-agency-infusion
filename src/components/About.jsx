@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../assets/about.png";
+import aboutImg from "/static/about.png";
 
 const About = () => {
   return (
@@ -52,7 +52,7 @@ const About = () => {
           >
             <div className="space-y-8">
               <div className="flex items-center gap-4">
-                <img src="/src/assets/icons/members.png" alt="" />
+                <img src="/static/icons/members.png" alt="" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
                     3,326,471
@@ -62,7 +62,7 @@ const About = () => {
               </div>
 
               <div className="flex items-center gap-4">
-                <img src="/src/assets/icons/clubs.png" alt="" />
+                <img src="/static/icons/clubs.png" alt="" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
                     53,567
@@ -74,7 +74,7 @@ const About = () => {
 
             <div className="space-y-8">
               <div className="flex items-center gap-4">
-                <img src="/src/assets/icons/event.png" alt="" />
+                <img src="/static/icons/event.png" alt="" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
                     1,243,834
@@ -84,7 +84,7 @@ const About = () => {
               </div>
 
               <div className="flex items-center gap-4">
-                <img src="/src/assets/icons/payment.png" alt="" />
+                <img src="/static/icons/payment.png" alt="" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
                     2,349,967

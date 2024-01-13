@@ -5,18 +5,18 @@ const Blog = () => {
     {
       id: 1,
       title: "Creating Streamlined Safeguarding Processes with OneRen",
-      image: "/src/assets/blog1.png",
+      image: "/static/blog1.png",
     },
     {
       id: 2,
       title:
         "What are your safeguarding responsibilities and how can you manage them?",
-      image: "/src/assets/blog2.png",
+      image: "/static/blog2.png",
     },
     {
       id: 3,
       title: "Revamping the Membership Model with Triathlon Australia",
-      image: "/src/assets/blog3.png",
+      image: "/static/blog3.png",
     },
   ];
 
@@ -57,7 +57,7 @@ const Blog = () => {
                 >
                   Read more
                   <img
-                    src="/src/assets/icons/right.svg"
+                    src="/static/icons/right.svg"
                     alt=""
                     className="inline-block ml-2"
                   />
